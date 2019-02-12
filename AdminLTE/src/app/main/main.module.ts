@@ -29,6 +29,12 @@ const routes: Routes = [
           path: '',
           loadChildren: './signin/signin.module#SigninModule'
 
+      },
+
+      {
+
+          path: '',
+          loadChildren: './signup/signup.module#SignupModule'
       }
     ]
 
